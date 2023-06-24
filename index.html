@@ -1,0 +1,24 @@
+
+          <html>
+            <body><!DOCTYPE html>
+<html>
+      <head></head>
+      <body>
+          <input id="P" placeholder="principal">
+          <input id="R" placeholder="rate">
+          <input id="T" placeholder="time">
+          <p>answer is: <span id="sp"></span></p>
+          <button onclick="simpleintrest()">simpleintrest</button>
+      </body>
+</html></body>
+            <style></style>
+            <script>function simpleintrest(){
+    principal=document.getElementById("P").value
+    rate=document.getElementById("R").value
+    time=document.getElementById("T").value
+    result= (parseInt(principal) * parseInt(rate) * parseInt(time))/100
+    document.getElementById("sp").innerHTML=result
+    
+}</script>
+          </html>
+        
